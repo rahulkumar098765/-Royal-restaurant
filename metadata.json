@@ -1,0 +1,6 @@
+{
+  "name": "Royal Spice Restaurant",
+  "description": "Luxury fine dining website for Royal Spice Restaurant featuring exquisite multi-cuisine menus, online ordering, VIP table reservations, event packages, and rich ambience showcase in a premium black & gold aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

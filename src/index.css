@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #D4AF37;
+    --gold-light: #f5e6a8;
+    --gold-dark: #997b1e;
+    --bg-dark: #050505;
+    --bg-card: #0d0d0f;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #050505;
+    background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #050505 100%);
+    background-attachment: fixed;
+    color: #e5e5e5;
+  }
+
+  h1, h2, h3, .font-display, .font-serif {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+/* Sleek Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Gold Gradient Utilities */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff4c6 0%, #D4AF37 50%, #b38c20 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #f6e8b4 50%, #b89326 100%);
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.2);
+}
+
+.border-gold-glow {
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
+/* Sleek Interface Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.glass-panel-dark {
+  background: rgba(8, 8, 10, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-dropdown {
+  background: rgba(10, 10, 12, 0.95);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Sleek radial backgrounds */
+.bg-sleek-radial {
+  background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #050505 100%);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1) 0%, rgba(5, 5, 5, 0) 70%);
+}
+
+
